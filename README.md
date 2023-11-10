@@ -1,2 +1,2 @@
-# Hanan-s-Resturant
-Applying HTML AND CSS
+# Hanan-s-Restaurant
+Applying HTML AND CSS BOOTSTRAP IN THREE PAGES
