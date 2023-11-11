@@ -110,56 +110,123 @@
     <section class="p-5">
       <div class="container">
         <div class="row text-center">
-          <div class="col-md">123</div>
-          <div class="col-md">123</div>
-
-          <div class="col-md">123</div>
+          <div class="col-md">
+            <div class="col-md">
+              <div class="card" style="width: 18rem">
+                <div class="card-body bg-black text-light">
+                  <h5 class="card-title text-bg-secondary">Breakfast Menu</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Click Here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- second row -->
+          <div class="col-md">
+            <div class="card" style="width: 18rem">
+              <div class="card-body bg-black text-light">
+                <h5 class="card-title text-bg-secondary">Launch Menu</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Click Here</a>
+              </div>
+            </div>
+          </div>
+          <!-- third row -->
+          <div class="col-md">
+            <div class="card" style="width: 18rem">
+              <div class="card-body bg-black text-light">
+                <h5 class="card-title text-bg-secondary">Lunch Menu</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Click Here</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <!-- middle section starts here -->
 
     <!-- contact form section starts here -->
     <section class="bg-light text-dark p-5">
-      <div class="container">
-        <div class="d-md-flex justify-content-between align-items-center">
-          <h3
-            class="mb-3 mb-mb-0 m-lg-5"
-            style="align-items: left; color: blue"
+      <div class="container d-flex justify-content-sm-around">
+        <form>
+          <div class="mb-3" style="width: 700px">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="First and Last"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="validationTextarea">Message</label>
+            <textarea
+              class="form-control is-invalid"
+              id="validationTextarea"
+              placeholder="Please enter your message."
+            ></textarea>
+            <div class="invalid-feedback">This filed is required.</div>
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Send me promotions</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div
+          class="badge bg-primary text-wrap"
+          style="width: 300px; height: 200px; margin-top: 100px"
+        >
+          <h5
+            class="head-text"
+            style="
+              margin-top: 50px;
+              font-family: Georgia, 'Times New Roman', Times, serif;
+            "
           >
-            Contact Us
-          </h3>
-          <!-- this is the form part -->
-          <form>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="name"
-              />
-            </div>
-            <div class="form-group pt-3">
-              <label for="exampleFormControlInput1">Email address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="name@example.com"
-              />
-            </div>
-
-            <div class="form-group pt-3 p-xxl-5">
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea
-                class="form-control pb-xxl-5 w-100"
-                id="exampleFormControlTextarea1"
-                rows="5"
-              ></textarea>
-            </div>
-          </form>
+            For more info <br />
+            contact us
+          </h5>
         </div>
       </div>
     </section>
+    <!-- this is the footer section -->
+    <footer class="footer bg-dark footer-dark" style="height: 60px">
+      <div class="container justify-content-center">
+        <p style="color: white; text-align: center; padding-top: 20px">
+          ©Hanan's Restaurant 2023
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
