@@ -23,7 +23,7 @@
     <section>
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">Hanan's Restaurant</a>
+          <a class="navbar-brand" href="index.html">Hanan's Restaurant</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -51,6 +51,78 @@
         </div>
       </nav>
       <!-- nav head ends here -->
+    </section>
+    <section>
+      <form class="form-class" style="padding: 20px">
+        <div
+          class="container w-50"
+          style="
+            border: 1px solid rgb(173, 173, 173);
+            margin-top: 50px;
+            padding: 30px;
+            border-radius: 30px;
+          "
+        >
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+              />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Apartment, studio, or floor"
+            />
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>New York</option>
+                <option>New Jersey</option>
+                <option>Connecticut</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
     </section>
     <!-- this is the footer section -->
     <!-- <footer class="footer bg-dark footer-dark" style="height: 60px">
