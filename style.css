@@ -1,3 +1,7 @@
+table {
+  background-color: rgb(254, 243, 230);
+}
+
 h5 {
   color: rgb(106, 14, 14);
   margin: 15px 0 0 10px;
@@ -9,7 +13,11 @@ td {
 }
 
 p {
-  color: rgb(106, 105, 105);
+  color: rgb(125, 123, 123);
   padding: 10px;
   font-family: "Times New Roman", Times, serif;
+}
+
+.form-group {
+  margin: 5px;
 }
