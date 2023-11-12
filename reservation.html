@@ -52,6 +52,7 @@
       </nav>
       <!-- nav head ends here -->
     </section>
+
     <!-- form section of the page -->
     <section>
       <form class="form-class" style="padding: 20px">
@@ -64,6 +65,7 @@
             border-radius: 30px;
           "
         >
+          <h5>Please fill out this form to make reservation</h5>
           <div class="row">
             <div class="col">
               <input
@@ -117,21 +119,39 @@
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="gridCheck" />
               <label class="form-check-label" for="gridCheck">
-                Check me out
+                Send me promotions
               </label>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          <br />
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Choose Your Occasion
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Birthday</a></li>
+              <li><a class="dropdown-item" href="#">Wedding</a></li>
+              <li><a class="dropdown-item" href="#">Graduation</a></li>
+            </ul>
+          </div>
+          <br />
+          <button type="submit" class="btn btn-primary">Send</button>
         </div>
       </form>
     </section>
     <!-- this is the footer section -->
-    <!-- <footer class="footer bg-dark footer-dark" style="height: 60px">
+    <!-- this is the footer section -->
+    <footer class="footer bg-dark footer-dark" style="height: 60px">
       <div class="container justify-content-center">
         <p style="color: white; text-align: center; padding-top: 20px">
           ©Hanan's Restaurant 2023
         </p>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
