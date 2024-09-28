@@ -33,28 +33,33 @@ body {
     /* Left contact page */
     .form-horizontal {
       /*float: left;*/
+      margin-top: 20px;
       max-width: 600px;
       font-family: 'Lato';
       font-weight: 400;
-      border: 20px solid red;
+      /* border: 20px solid red; */
     }
     
     .form-control, 
     textarea {
       max-width: 900px;
+      height: 50px;
+      width: 400px;
       background-color: #000;
       color: #fff;
       letter-spacing: 1px;
-      border: 10px solid blue;
+      /* border: 10px solid blue; */
       margin: 20px;
     }
     
     .send-button {
       margin-top: 15px;
-      height: 34px;
+      height: 50px;
       width: 400px;
       overflow: hidden;
       transition: all .2s ease-in-out;
+      margin: 20px;
+
     }
     
     .alt-send-button {
