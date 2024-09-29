@@ -1,9 +1,9 @@
 table {
-  background-color: rgb(254, 243, 230);
+  background-color: rgb(21, 20, 19);
 }
 
 h5 {
-  color: rgb(106, 14, 14);
+  color: rgb(210, 199, 199);
   margin: 15px 0 0 10px;
   padding: 10px;
 }
@@ -12,7 +12,7 @@ td {
 }
 
 p {
-  color: rgb(125, 123, 123);
+  color: rgb(152, 151, 151);
   padding: 10px;
   font-family: "Times New Roman", Times, serif;
 }
