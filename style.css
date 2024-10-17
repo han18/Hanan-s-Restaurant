@@ -37,6 +37,11 @@ p {
   margin: 5px;
 }
 
+#toggle-button {
+  color:blue;
+  box-shadow: 3px 2px rgb(165, 157, 157)
+}
+
 
 /* delete this if possible this is from another example */
 /* css styling for the darkmode */

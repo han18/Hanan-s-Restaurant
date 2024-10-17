@@ -10,6 +10,11 @@ body.dark-mode {
   color: #fff;
 }
 
+#toggle-button {
+  color:blue;
+  box-shadow: 3px 2px rgb(165, 157, 157)
+}
+
 /*=============== end of the dark mode styling example  */
 
 
