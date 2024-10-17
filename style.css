@@ -38,8 +38,10 @@ p {
 }
 
 #toggle-button {
-  color:blue;
-  box-shadow: 3px 2px rgb(165, 157, 157)
+  color:rgb(2, 2, 109);
+  border: none;
+  font-weight: bold;
+  box-shadow: 2px 4px rgb(188, 186, 186)
 }
 
 
