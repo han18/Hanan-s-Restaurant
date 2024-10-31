@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,7 +24,7 @@
     <section>
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">Hanan's Restaurant main branch</a>
+          <a class="navbar-brand" href="#">Hanan's Restaurant Testing Branch</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -52,6 +52,8 @@
               </li>
             </ul>
           </div>
+         <!-- ======== the darkmode button =====  -->
+          <button id="toggle-button">Toggle Dark Mode</button>
         </div>
       </nav>
       <!-- nav head ends here -->
@@ -151,7 +153,7 @@
                   <p class="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Corporis eligendi dolore placeat numquam, quam maiores
-                    soluta aperiam.
+                    soluta.
                   </p>
                   <a href="menu.html" class="btn btn-primary">Click Here</a>
                 </div>
@@ -188,60 +190,9 @@
       </div>
     </section>
     <!-- middle section starts here -->
-
-    <!-- contact form section starts here -->
-    <section class="bg-light text-dark p-5">
-      <div class="container d-flex justify-content-sm-around">
-        <form>
-          <div class="mb-3" style="width: 700px">
-            <label for="exampleInputEmail1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-            />
-            <div id="emailHelp" class="form-text">
-              We'll never share your email with anyone else.
-            </div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="exampleInputPassword1"
-              placeholder="First and Last"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="validationTextarea">Message</label>
-            <textarea
-              class="form-control is-invalid"
-              id="validationTextarea"
-              placeholder="Please enter your message."
-            ></textarea>
-            <div class="invalid-feedback">This filed is required.</div>
-          </div>
-          <div class="mb-3 form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" for="exampleCheck1"
-              >Send me promotions</label
-            >
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        <div>
-          <img src="contact-us-gif.gif" class="w-75 p-lg-5"/>
-        </div>
-      </div>
-    </section>
+    <div id="container-3">
+      
+    </div>
     <!-- this is the footer and it's copied to each page-->
     <!-- this is the footer section -->
     <footer class="footer bg-dark footer-dark" style="height: 60px">
@@ -251,5 +202,6 @@
         </p>
       </div>
     </footer>
+        <script src="main.js"></script>
   </body>
 </html>

@@ -1,9 +1,32 @@
+
+/* this is from an online example */
 body {
+  background-color: #fff;
+  color: #333;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+#toggle-button {
+  color:rgb(2, 2, 109);
+  border: none;
+  font-weight: bold;
+  box-shadow: 2px 4px rgb(188, 186, 186)
+}
+
+/*=============== end of the dark mode styling example  */
+
+
+
+/* body {
       margin: 0;
       padding: 0;
       background-color: #000;
       padding-bottom: 100px;
-    }
+    } */
     
     #contact {
       width: 100%;
