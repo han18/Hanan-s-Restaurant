@@ -93,15 +93,15 @@ p {
 }
 
 
-
-#main-container img {
+#main-container {
   margin: auto;
   margin-top: 20px;
-  display: flex;
 }
 
 .img {
-  width: 400px;
+  width: 500px;
+  border-radius: 15px;
+  margin: auto;
 }
 
 h2 {
