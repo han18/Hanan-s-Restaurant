@@ -68,11 +68,49 @@ p {
 #main-container {
   width: 600px;
   margin-top: 200px;
-  border: 1px solid green;
+  /* border: 1px solid rgb(76, 87, 76); */
   margin: auto;
 
 }
 
+.div-one {
+  /* border: 1px solid white; */
+  margin: auto;
+}
+
+#searchInput{
+  margin-left: 700px;
+  width: 500px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.searchButton {
+  width: 100px;
+  border-radius: 10px;
+  height: 40px;
+
+}
+
+
+
 #main-container img {
   margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+
+.img {
+  width: 400px;
+}
+
+h2 {
+  color: rgb(151, 117, 5);
+  margin-top: 90px;
+  text-align: center;
+}
+
+.head-one {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

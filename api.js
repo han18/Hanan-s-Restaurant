@@ -35,9 +35,9 @@ function getRecipe() {
                     // Loop through each meal and add HTML content
                     data.meals.forEach(meal => {
                         html += `
-                        <div> 
+                        <div > 
                             <h2>${meal.strMeal}</h2>
-                            <img src="${meal.strMealThumb}" alt="${meal.strMeal}" style="width:200px;height:auto;">
+                            <img class="img" src="${meal.strMealThumb}" alt="${meal.strMeal}">
                         </div>
                         `;
                     });
